@@ -1,0 +1,232 @@
+﻿
+@import 'settings';
+@import 'foundation';
+
+/* Extra styles for GGS website*/
+
+#body {
+    background-image: url({{root}}assets/img/background/bg1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+#GGSheader {
+    background-color: $warmskin;
+    z-index: 1;
+
+    .menu {
+        a:hover {
+            color: $blackroots;
+        }
+    }
+
+    img{
+        max-width: 100rem;
+        width: 100%;
+    }
+
+    #nav ul {
+        li {
+            background-color: $warmskin;
+
+            a {
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-variant-caps: petite-caps;
+                color: $brightwhite;
+            }
+
+            a:hover {
+                color: $blackroots;
+            }
+        }
+    }
+}
+
+#GGSslideshow {
+    background-color: $ghostgrey;
+
+}
+
+#GGSabout {
+    background-color: $mistygreen;
+
+    h3 {
+        font-weight: bold;
+        font-family: 'Giddyup Std';
+    }
+
+    iframe {
+        max-width: 46rem;
+        width: 100%;
+        max-height: 50rem;
+        border: none;
+    }
+}
+
+#GGSgalleries {
+    background-color: $ghostgrey;
+
+    h3 {
+        font-weight: bold;
+        font-family: 'Giddyup Std';
+    }
+}
+
+#GGScontact {
+    background-color: $mistygreen;
+    // Form style
+    #fieldset {
+        max-width: 50rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0.5rem;
+        background-color: $brightwhite;
+        border: 1px solid;
+        border-color: $ghostgrey;
+    }
+
+    #legend {
+        padding: 1rem;
+        background-color: $soilbrown;
+        color: $white;
+        font-weight: $header-font-weight;
+    }
+}
+
+#GGSfooter {
+    background-color: $soilbrown;
+    color: $brightwhite;
+
+    .logo {
+        font-size: 1.5rem;
+        font-family: 'Giddyup Std';
+    }
+
+    img {
+        max-width: 3rem;
+        width: 100%;
+        border: 0.1rem solid white;
+        border-radius: 3rem;
+    }
+
+    .breadcrumbs {
+        a {
+            padding: 0.25rem;
+            background-color: $brightwhite;
+        }
+
+        a:hover {
+            background-color: $mistygreen;
+        }
+    }
+}
+
+
+/* Extra styles for GGS Index page*/
+
+#links {
+    max-width: 100rem;
+    width: 100%;
+    background-color: $soilbrown;
+
+    a {
+        color: $brightwhite;
+    }
+
+    a:hover {
+        background-color: $mistygreen;
+    }
+}
+
+#Galleryindex {
+    background-color: $ghostgrey;
+    h4 {
+        font-family: 'Courier New';
+        font-variant-caps: all-petite-caps;
+        font-weight: bold;
+    }
+}
+
+#Resourcesindex {
+    h4 {
+        font-family: 'Courier New';
+        font-variant-caps: all-petite-caps;
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 30rem;
+        width: 100%;
+    }
+}
+
+
+/* Extra styles for GGS prototype*/
+
+// Header//
+.sticky {
+    img {
+        max-width: 100rem;
+        width: 100%;
+    }
+
+    a {
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-variant-caps: petite-caps;
+    }
+    }
+
+// Typography and embedded video
+@each $num in $Galleries {
+    #Gallery#{$num} {
+        h3 {
+            font-weight: bold;
+            font-family: 'Giddyup Std';
+        }
+    }
+}
+
+@each $num in $Videos {
+    #Video#{$num} {
+        h3 {
+            font-weight: bold;
+            font-family: 'Giddyup Std';
+        }
+    }
+}
+
+iframe {
+    max-width: 46rem;
+    width: 100%;
+    max-height: 50rem;
+    border: none;
+}
+// Spacer style
+.spacer {
+    height: 1rem;
+}
+
+.spacer-wide {
+    height: 2rem;
+}
+// Form style
+#fieldset {
+    max-width: 50rem;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $ghostgrey;
+}
+
+#legend {
+    padding: 1rem;
+    background-color: $soilbrown;
+    color: $white;
+    font-weight: $header-font-weight;
+}
+
+

@@ -1,0 +1,476 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My first Foundation website">
+    <meta name="keywords" content="Foundation framework, responsive website, SASS design, Zurb template, Panini structure, Handlebars language">
+    <title>Georges Garden Shop</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+<body>
+
+
+
+    <div id="body">
+            <div class="cell" id="GGSheader">
+                <a id="Home"></a>
+                <div class="cell" data-sticky-container>
+                    <div class="cell" id="menubar" data-sticky data-sticky-on="small" data-margin-top="0.5" data-top-anchor="1">
+                        <div class="title-bar" data-responsive-toggle="toggle-menu">
+                            <button class="menu-icon" type="button" data-toggle="toggle-menu"></button>
+                            <nav class="title-bar-left" data-hide-for="medium">
+                                <ul class="dropdown menu" data-dropdown-menu id="toggle-menu" data-v-offset="0">
+                                    <li class="is-dropdown-submenu-parent">
+                                        <a href="#"></a>
+                                        <ul class="menu vertical">
+                                            <li><a href="#Home">Home</a></li>
+                                            <li><a href="#About">About</a></li>
+                                            <li><a href="#Gallery">Gallery</a></li>
+                                            <li><a href="#Contact">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="title-bar-right">
+                                <p class="show-for-large"> Georges garden Shop, <br /> the plants pit stop.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cell sticky" data-sticky data-sticky-on="medium large" data-margin-top="0" data-anchor="carousel">
+                        <div class="cell">
+                            <img src="assets/img/logo/garden-shop_logo1lg.jpg" alt="Georges garden shop logo" />
+                        </div>
+                        <nav class="cell show-for-medium" id="nav">
+                            <ul class="menu align-center">
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#Gallery">Gallery</a></li>
+                                <li><a href="#Contact">Contact</a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+
+            <div class="cell" id="GGSslideshow">
+                <div class="cell">
+                    <div class="orbit" role="region" aria-label="Georges Garden Shop" data-orbit>
+                        <div class="orbit-wrapper" id="carousel">
+                            <div class="orbit-controls">
+                                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                            </div>
+                            <ul class="orbit-container align-center">
+                                <li class="is-active orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="assets/img/carousel/garden-shop1.jpg" alt="Garden shop decorations" />
+                                        <figcaption class="orbit-caption">Decorations</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="assets/img/carousel/garden-shop2.jpg" alt="Garden shop Flowers" />
+                                        <figcaption class="orbit-caption">Flowers</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="assets/img/carousel/garden-shop3.jpg" alt="Garden shop planting" />
+                                        <figcaption class="orbit-caption">Planting</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="assets/img/carousel/garden-shop4.jpg" alt="Garden shop gifts" />
+                                        <figcaption class="orbit-caption">Gifts</figcaption>
+                                    </figure>
+                                </li>
+                                <li class="orbit-slide">
+                                    <figure class="orbit-figure">
+                                        <img class="orbit-image" src="assets/img/carousel/garden-shop5.jpg" alt="Garden shop potted plants" />
+                                        <figcaption class="orbit-caption">Potted plants</figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"><span class="show-for-sr">Decorations.</span><span class="show-for-sr">Current Slide</span></button>
+                            <button data-slide="1"><span class="show-for-sr">Flowers.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Planting.</span></button>
+                            <button data-slide="3"><span class="show-for-sr">Gifts.</span></button>
+                            <button data-slide="4"><span class="show-for-sr">Potted plants.</span></button>
+                        </nav>
+                    </div>
+                </div>
+                <div class="spacer-wide">
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+        <div class="cell" id="GGSabout">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <a id="About"></a>
+                    <div class="cell">
+                        <div class="spacer-wide">
+                        </div>
+                        <h2 class="text-center">ABOUT US</h2>
+                        <p class="text-center">
+                            Quality is what we promise at <i>Georges Garden Shop</i>. With an established store and a brand new workpshop, we are where all the
+                            green-minded go for their gardening needs.
+                        </p>
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Video1">
+                                <h3 class="text-left">Our story</h3>
+                            </div>
+                            <div class="cell small-responsive-embed medium-auto large-auto">
+                                <iframe width="460" height="300" src="https://www.youtube.com/embed/9E7IKT6156I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="cell small-auto medium-5 large-7">
+                                <p>
+                                    <i>Georges Garden Shop</i> is more than a nursery. Step into a sanctuary filled with gardening inspiration, garden ideas, indigenous and
+                                    flowering plants, plus a wide selection of on-trend flower pots, top quality bird feeders, exquisite patio furniture and classic garden decor.
+                                </p>
+                                <p>
+                                    To make your life easier, <i>Georges Garden Shop</i> has over time built up a directory of services allied to the gardening industry.
+                                    Transform your indoor living space into a green oasis filled with luscious indoor plants, paired with stylish indoor pots and beautiful containers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="spacer">
+                        </div>
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Video2">
+                                <h3 class="text-left">Our shop</h3>
+                            </div>
+                            <div class="cell small-responsive-embed medium-auto large-auto">
+                                <iframe width="460" height="300" src="https://www.youtube.com/embed/vAiu1JmpOng" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="cell small-auto medium-5 large-7">
+                                <p>
+                                    Whether you are a serious gardener or an occasional hobbyist, this is where you will find new plants, home decoration, garden care information,
+                                    gardening books, recommended horticulture providers and much more.
+                                    Check back regularly for fresh gardening information and inspiration.
+                                </p>
+                                <p>
+                                    At <i>Georges Garden Shop</i>, we have an on-site expert advice from a qualified horticulturist for a one-hour consultation service and half-days workshops about caring for your
+                                    green yards. Book a time with us to increase your garden knowledge!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-wide">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cell" id="GGSgalleries">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <a id="Gallery"></a>
+                    <div class="cell">
+                        <div class="spacer-wide">
+                        </div>
+                        <h2 class="text-center">GALLERY</h2>
+                        <p class="text-center">
+                            Our flowers, plants and bulbs are shipped in daily to ensure the freshest and best are always stocked.
+                            We offer free deliveries for online orders over R1,500.
+                        </p>
+                        <p class="text-center">
+                            Store pick up is available during the week.
+                            We deliver live plants to Gauteng areas using our own vehicles. Non-living goods can be delivered nationally using external couriers.
+                        </p>
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Gallery1">
+                                <h3 class="text-left"><span data-tooltip class="right" tabindex="1" title="For the garden.">Outdoors plants</span></h3>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galoutdoors/azalea_formosa.jpg" alt="Outdoor Azalea Formosa" />
+                                <p>Azalea Formosa (multicolours): R1,300.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galoutdoors/boxwood_wintergreen.jpg" alt="Outdoor Boxwood" />
+                                <p>Boxwood wintergreen: R2,100.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galoutdoors/fruit_pomegranate.jpg" alt="Fruits Pomegranate" />
+                                <p>Fruit Pomegranate: R2,800.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galoutdoors/ligustrum_sunshine.jpg" alt="Outdoor Ligustrum" />
+                                <p>Ligustrum Sunshine: R1,250.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galoutdoors/rose_durban.jpg" alt="Roses Durban" />
+                                <p>Roses Durban (multicolours): R1,870.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galoutdoors/yucca_marginata.jpg" alt="Outdoor Yucca Marginata" />
+                                <p>Yucca Marginata: R2,210.00</p>
+                            </div>
+                        </div>
+
+                        <div class="spacer">
+                        </div>
+
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Gallery2">
+                                <h3 class="text-left"><span data-tooltip class="right" tabindex="2" title="For the terrace."> Indoors plants</span></h3>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galindoors/herbs_capsicum-salsa.jpg" alt="Herbs Capsicum salsa" />
+                                <p>Herbs selection Capsicum Salsa: R600.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galindoors/indoor_chrysalidocarpus-lutescens.jpg" alt="Indoor lutescens" />
+                                <p>Chrysalidocarpus Lutescens: R750.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galindoors/indoor_cymbidium-varieties.jpg" alt="Indoor Cymbidium" />
+                                <p>Cymbidium Varieties: R990.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galindoors/loropetalum_emerald-snow.jpg" alt="Indoor Loropetalum" />
+                                <p>Loropetalum Emerald Snow: R750.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galindoors/planted_herb-basket.jpg" alt="Herbs basket varieties" />
+                                <p>Herbs basket varieties: R790.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galindoors/tropical_croton.jpg" alt="Indoor Croton" />
+                                <p>Tropical Croton: R1,170.00</p>
+                            </div>
+                        </div>
+
+                        <div class="spacer">
+                        </div>
+
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Gallery3">
+                                <h3 class="text-left"><span data-tooltip class="right" tabindex="3" title="To embellish your home and patio.">Pots and Gifts</span></h3>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galpotsgifts/gift_bananaleaf-pen.jpg" alt="Banana leaf pens" />
+                                <p>Banana pens: R1,300.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galpotsgifts/gift_bananaleaf-tray.jpg" alt="Banana leaf trays set" />
+                                <p>Banana trays: R2,150.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galpotsgifts/gift_shelf3tier.jpg" alt="Shelf 3 tiers" />
+                                <p>Shelf 3 tiers: R4,800.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galpotsgifts/pot_sand-oceanbreeze.jpg" alt="Pots Ocean" />
+                                <p>Pot set Ocean: R8,100.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galpotsgifts/pot_turquoisesquare.jpg" alt="Pots Square" />
+                                <p>Pot set Square: R7,300.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galpotsgifts/pot_tusleaf.jpg" alt="Pot Afro Leaf" />
+                                <p>Pot Afro leaf: R3,400.00</p>
+                            </div>
+                        </div>
+
+                        <div class="spacer">
+                        </div>
+
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell" id="Gallery4">
+                                <h3 class="text-left"><span data-tooltip class="right" tabindex="4" title="To grow your plants all-year round.">Tools and Fertilisers</span></h3>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galtoolsfertilisers/fertiliser_protek-guanoflo.jpg" alt="Fertiliser Guanoflo" />
+                                <p>Fertiliser Guanoflo: R370.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galtoolsfertilisers/fertiliser_talborne.jpg" alt="Fertiliser Talborne" />
+                                <p>Fertiliser Talborne: R495.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galtoolsfertilisers/fertiliser_wonder321.jpg" alt="Fertiliser Wonder 321" />
+                                <p>Fertiliser Wonder 321: R345.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galtoolsfertilisers/tool_fruitpicker.jpg" alt="Fruit picker Gardenia" />
+                                <p>Fruit picker Gardenia: R960.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-auto">
+                                <img src="assets/img/galtoolsfertilisers/tool_hosereel.jpg" alt="Hose and reel Gardenia" />
+                                <p>Hose and reel Gardenia: R1,095.00</p>
+                            </div>
+                            <div class="cell small-4 medium-2 large-2">
+                                <img src="assets/img/galtoolsfertilisers/tool_lopper.jpg" alt="Lopper Gardenia" />
+                                <p>Lopper Gardenia: R815.00</p>
+                            </div>
+                        </div>
+
+                        <div class="spacer">
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-wide">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cell" id="GGScontact">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <a id="Contact"></a>
+                    <div class="cell">
+                        <div class="spacer-wide">
+                        </div>
+                        <h2 class="text-center">CONTACT</h2>
+                        <p class="text-center">You can contact us by post via the following address:</p>
+                        <address class="text-center">
+                            <br /> 357 Landscape Highway
+                            <br /> Motomba 89123
+                            <br />Zambica
+                        </address>
+                        <div class="spacer-wide">
+                        </div>
+
+                        <p class="text-center">
+                            Feel free to contact us using the form below!
+                        </p>
+                        <form data-abide novalidate>
+                            <div data-abide-error class="alert callout" style="display: none;">
+                                <p><i class="fi-alert"></i> There are some errors in your form.</p>
+                            </div>
+                            <div class="grid-container">
+                                <fieldset class="cell small-12 medium-8 large-8" id="fieldset">
+                                    <legend class="text-center" id="legend">Contact form</legend>
+                                    <div class="grid-x grid-padding-x">
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+                                        <div class="cell small-12 medium-5 large-5">
+                                            <label class="align-center">
+                                                *Name:
+                                                <input type="text" aria-describedby="NameHelpText" placeholder="Name" pattern="alpha" required>
+                                                <span class="form-error" id="ErrorName">
+                                                    Please include your name!
+                                                </span>
+                                            </label>
+                                            <p class="help-text show-for-medium show-for-large" id="NameHelpText">Your first and last names.</p>
+                                        </div>
+
+                                        <div class="cell small-12 medium-5 large-5">
+                                            <label>
+                                                *Email:
+                                                <input type="email" aria-describedby="EmailHelpText" placeholder="Email" pattern="email" required>
+                                                <span class="form-error" id="ErrorEmail">
+                                                    Please include your email!
+                                                </span>
+                                            </label>
+                                            <p class="help-text show-for-medium show-for-large" id="EmailHelpText">Your email address.</p>
+                                        </div>
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+                                        <div class="cell small-12 medium-10 large-10">
+                                            <label>
+                                                Nature of your query:
+                                                <select id="select" required>
+                                                    <option value="">Please select one option.</option>
+                                                    <option value="order">Orders</option>
+                                                    <option value="feedback">Feedback</option>
+                                                    <option value="marketing">Marketing</option>
+                                                    <option value="general">General</option>
+                                                </select>
+                                                <span class="form-error" id="ErrorQuery">
+                                                    Please select one option!
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+                                        <div class="cell small-12 medium-10 large-10">
+                                            <label>
+                                                *Message:
+                                                <textarea rows="6" placeholder="Message" required></textarea>
+                                                <span class="form-error" id="ErrorMessage">
+                                                    Please type in your message!
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <div class="cell small-12 medium-1 large-1">
+                                        </div>
+
+                                        <div class="cell small-12 medium-9 large-9">
+                                        </div>
+                                        <div class="cell small-12 medium-3 large-3">
+                                            <button type="submit" class="button small-only-expanded">Submit</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="spacer-wide">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cell" id="GGSfooter">
+            <div class="grid-container">
+                <footer class="grid-x">
+                    <div class="cell">
+                        <p class="text-center">
+                            &copy;<strong class="logo"> Georges Garden Shop</strong> - 2019
+                            <br /> Content & Design by Anaelle TD
+                        </p>
+                    </div>
+                    <div class="cell" id="social">
+                        <p class="text-center">
+                            <a href="https://www.youtube.com/channel/UCNbrMEhjDQTPwoZtV_YJdLA"><img src="assets/img/ggsproject/iconyoutube.png" alt="logo of youtube" /></a>
+                            <a href="https://twitter.com/GardenShopSA"><img src="assets/img/ggsproject/icontwitter.png" alt="logo of twitter" /></a>
+                            <a href="https://za.pinterest.com/2f68144198db33ea6028a2dcdbcf1b/"><img src="assets/img/ggsproject/iconpin.png" alt="logo of pininterest" /></a>
+                        </p>
+                    </div>
+                    <div class="cell">
+                        <div class="cell small-6 medium-8 large-8">
+                        </div>
+                        <div class="cell small-6 medium-4 large-4">
+                            <nav aria-label="You are here:">
+                                <ul class="breadcrumbs">
+                                    <li><a href="index.html">Index</a></li>
+                                    <li><a href="ggswireframes.html">Wireframes</a></li>
+                                    <li><a href="ggsprototype.html">Prototype</a></li>
+                                    <li class="is-active"><span class="show-for-sr">Current: </span>Website</li>
+                                </ul>
+                            </nav>
+                        </div>  
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
