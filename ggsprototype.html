@@ -13,40 +13,45 @@
 <body>
 
 
-    <div class="grid-x" data-sticky-container>
+    <div class="grid-x" id="GGSheader">
         <a id="Home"></a>
-        <div class="cell" id="menubar" data-sticky data-sticky-on="small" data-margin-top="0.5" data-top-anchor="1">
-            <div class="title-bar" data-responsive-toggle="toggle-menu">
-                <button class="menu-icon" type="button" data-toggle="toggle-menu"></button>
-                <nav class="title-bar-left" data-hide-for="medium">
-                    <ul class="dropdown menu" data-dropdown-menu id="toggle-menu" data-v-offset="0">
-                        <li class="is-dropdown-submenu-parent">
-                            <a href="#"></a>
-                            <ul class="menu vertical">
-                                <li><a href="#Home">Home</a></li>
-                                <li><a href="#About">About</a></li>
-                                <li><a href="#Gallery">Gallery</a></li>
-                                <li><a href="#Contact">Contact</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="title-bar-right">
-                    <p class="show-for-large"> Georges garden Shop, <br /> the plants pit stop.</p>
+        <div class="cell" data-sticky-container>
+            <div class="cell hide-for-medium">
+                <img src="https://via.placeholder.com/1200x200/3adb76/ffffff.png" alt="Georges garden shop logo" />
+            </div>
+            <div class="cell" data-sticky data-sticky-on="small" data-margin-top="0" data-top-anchor="1">
+                <div class="title-bar" data-responsive-toggle="toggle-menu">
+                    <button class="menu-icon" type="button" data-toggle="toggle-menu"></button>
+                    <nav class="title-bar-left" data-hide-for="medium">
+                        <ul class="dropdown menu" data-dropdown-menu id="toggle-menu" data-v-offset="0">
+                            <li class="is-dropdown-submenu-parent">
+                                <a href="#"></a>
+                                <ul class="menu vertical">
+                                    <li><a href="#Home">Home</a></li>
+                                    <li><a href="#About">About</a></li>
+                                    <li><a href="#Gallery">Gallery</a></li>
+                                    <li><a href="#Contact">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="title-bar-right">
+                        <p class="show-for-large"> Georges garden Shop, <br /> the plants pit stop.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="cell sticky" data-sticky data-sticky-on="medium large" data-margin-top="0" data-anchor="carousel">
-            <div class="cell">
+        <div class="cell">
+            <div class="cell show-for-medium">
                 <img src="https://via.placeholder.com/1200x200/3adb76/ffffff.png" alt="Georges garden shop logo" />
             </div>
-            <nav class="cell show-for-medium">
+            <nav class="cell show-for-medium" id="nav">
                 <ul class="menu align-center">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Gallery">Gallery</a></li>
-                    <li><a href="#Contact">Contact</a>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
